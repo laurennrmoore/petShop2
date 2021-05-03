@@ -1,0 +1,22 @@
+#navbarNav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 2.0em;
+}
+
+
+#img{
+size: 50px; 
+
+}
+
+.shopping-cart-icon{
+margin-bottom: 3px;
+margin-top: 7px;
+} 
+
+#navbar-brand{
+ font-size: 3em;   
+}
