@@ -110,8 +110,6 @@ var shop = [
     
     var postHTML = "shop"
   
-
-
   
     for (var i=0; i < shop.length; i++){
       console.log(i)
