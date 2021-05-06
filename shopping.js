@@ -108,16 +108,20 @@ var shop = [
     
     ]
     
-    var postHTML = "shop"
+    var postHTML = ""
   
-  
+    var prefix1 = "<div class='row'>"
+    var suffix1 = "/<div>"
+
     for (var i=0; i < shop.length; i++){
-      console.log(i)
+      var prefix = "<div class='col-md-3'>"
       var heading = '<div class="product ' + '"><span><h5>' + shop[i].title + '</h5>'
-      var image = '<img src="' + shop[i].image + '"/>'
+      var image = '<img  src="' + shop[i].image + '"/>'
       var price = '<p> $' + shop[i].price + '</p></span>'
-      var description = '<div class=""><p>'+ shop[i].description + '</p><button type="button" class="btn btn-warning">Add to Cart</button></div></div>'
-      var concatThis = heading + image + price + description;
+      var description = "<div class='info'><p>" + shop[i].description + '</p><button type="button" class="btn btn-warning">Add to Cart</button></div></div>'
+      var suffix = "</div>"
+      var concatThis = prefix + heading + image + price + description + suffix;
       postHTML = postHTML + concatThis
   }
+  postHTML = prefix1 + postHTML + suffix1
   document.getElementById('market').innerHTML = postHTML
