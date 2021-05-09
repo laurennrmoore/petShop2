@@ -4,14 +4,13 @@
     flex-wrap: wrap;
     justify-content: flex-end;
     font-size: 2.0em;
+  
+
+
     
 }
 
 
-img{
-size: 50px; 
-
-}
 
 .shopping-cart-icon{
 margin-bottom: 3px;

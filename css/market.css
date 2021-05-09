@@ -1,8 +1,15 @@
-img{
-  height: 70%;
-  width: 70%;
+.card-img-top{
+    height: 250px;
+  }
+  
+.card{
+  margin-bottom: 20px;
 }
 
-.col-md-3{
-  height: 500px;
+.card-body{
+  display: grid;
+}
+
+a{
+  margin-top: auto;
 }
