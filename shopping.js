@@ -15,56 +15,56 @@ var shop = [
   
   {
     title: 'No-pull dog halter leash',
-    image: '../img/No pull dog halter leash.jpg',
+    image: '../img/No_pull_dog_halter_leash.jpg',
     price: '15.99',
     description: "Safely and gently lead your pets with our no-pull leash. Don't delay, get yours today!"
   },
   
   {
     title: 'Schedule Your Pets with our Vets',
-    image: '../img/pets and vet in arms.jpg',
+    image: '../img/pets_and_vet_in_arms.jpg',
     price: ' Fee schedules will vary',
     description: "Book your pet-doctor visits with our locator. In-person or tele-health consultations. Schedule today!"
   },
   
   {
     title: 'Leather belt and leash system',
-    image: '../img/Leather belt and leash system.jpg',
+    image: '../img/Leather_belt_and_leash_system.jpg',
     price: '39.99',
     description:"Stay connected with this durable leash system. Chew resistant and sturdy, it'll serve you both for years to come."
   },
   
   {
     title: 'Wheelchair Hook ',
-    image: '../img/Wheelchair Hook.jpg',
+    image: '../img/Wheelchair_Hook.jpg',
     price: '9.99',
     description:"Always connect securely with our stylish wheelchair hook. Compatible with any wheelchair model, just hook and go!"
   },
   
   {
     title: 'Therapy Dog Pouch',
-    image: '../img/Therapy dog pouch.jpg',
+    image: '../img/Therapy_dog_pouch.jpg',
     price: '9.99',
     description:"This pouch easily holds your essentials.Get yours today!"
   },
   
   {
     title: 'Hay Bundle',
-    image: '../img/Hay Bundle.png',
+    image: '../img/Hay_Bundle.png',
     price: '14.95',
     description:"Make your pets feel right at home with our premium hay bundles for cages and treats!"
   },
   
   {
     title: 'Horse Grooming Kit',
-    image: '../img/Horse Grooming Kit.png',
+    image: '../img/Horse_Grooming_Kit.png',
     price: '15.95',
     description: "A well-groomed horse is a treasure.Care for their coat with our essential 9-pc grooming kit."
   },
   
   {
     title: 'Therapy Pet Sticker',
-    image: '../img/I need space button or sticker.png',
+    image: '../img/I_need_space_button_or_sticker.png',
     price: '4.95',
     description:"Kindly request a little space with our colorful sticker."
   },
@@ -78,32 +78,41 @@ var shop = [
   
   {
     title: 'Ginea Pig Food',
-    image: '../img/ginea pig pellet food.png',
+    image: '../img/ginea_pig_pellet_food.png',
     price: '4.99',
     description:">Nourish your ginea's with the best food.Infused with greens and sweet carrots, this is sure to be a favorite!"
   },
   
   {
     title: 'Mini saddle',
-    image: "../img/children\'s saddle.png",
+    image: "../img/mini_saddle.png",
     price: '24.99',
     description:"Nestle your little one in our safe & cozy leather saddle. Extra buckles and snaps included."
   },
   
   {
     title: 'Cat litter Box',
-    image: '../img/cat litter box.webp',
+    image: '../img/cat_litter_box.webp',
     price: '14.95',
     description:"Give your cat a spacious litter box with our sturdy, stylish design."
   },
   
   {
     title: 'Kitty Litter',
-    image: '../img/cat litter.jpg',
+    image: '../img/cat_litter.jpg',
     price: '14.49',
     description:"Fragrant, non-stick crystals with a color-based health indicator for your feline.Freshness guaranteed."
   }
+
+  {
+    title: 'Rabbit Food',
+    image: '../img_rabbit_food.',
+    price: '9.88',
+    description:"Feed your rabbit with all the nutrients needed for health and long life with our formulation."
+  }
   
+
+
   ]
   
   var postHTML = ""
