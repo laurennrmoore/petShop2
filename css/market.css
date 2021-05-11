@@ -1,9 +1,18 @@
-img{
-  height: 70%;
-  width: 70%;
+.card-img-top{
+    height: 250px;
+  }
+  
+.card{
+  margin-bottom: 20px;
 }
 
-.col-md-3{
-  height: 500px;
+.card-body{
+  display: grid;
 }
 
+<<<<<<< HEAD
+=======
+a{
+  margin-top: auto;
+}
+>>>>>>> 44f3d2a85a938820978f996460f5911ae2af2933
