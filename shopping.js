@@ -15,7 +15,7 @@ var shop = [
   
   {
     title: 'No-pull dog halter leash',
-    image: '../img/No_pull_dog_halter_leash.jpg',
+    image: '../img/no_pull_dog_halter_leash.jpg',
     price: '15.99',
     description: "Safely and gently lead your pets with our no-pull leash. Don't delay, get yours today!"
   },
@@ -57,7 +57,7 @@ var shop = [
   
   {
     title: 'Horse Grooming Kit',
-    image: '../img/Horse_Grooming_Kit.png',
+    image: '../img/horse_grooming_kit.png',
     price: '15.95',
     description: "A well-groomed horse is a treasure.Care for their coat with our essential 9-pc grooming kit."
   },
@@ -80,7 +80,7 @@ var shop = [
     title: 'Ginea Pig Food',
     image: '../img/ginea_pig_pellet_food.png',
     price: '4.99',
-    description:">Nourish your ginea's with the best food.Infused with greens and sweet carrots, this is sure to be a favorite!"
+    description:"Nourish your ginea's with the best food.Infused with greens and sweet carrots, this is sure to be a favorite!"
   },
   
   {
@@ -102,11 +102,11 @@ var shop = [
     image: '../img/cat_litter.jpg',
     price: '14.49',
     description:"Fragrant, non-stick crystals with a color-based health indicator for your feline.Freshness guaranteed."
-  }
+  },
 
   {
     title: 'Rabbit Food',
-    image: '../img_rabbit_food.',
+    image: '../img/rabbit_food.jpg',
     price: '9.88',
     description:"Feed your rabbit with all the nutrients needed for health and long life with our formulation."
   }
@@ -126,7 +126,7 @@ var shop = [
       var heading = "<h5 class='card-title'>" + shop[i].title +"</h5>"
       var price = "<p class='card-text'>" + shop[i].price + "</p> "
       var description = "<p class='card-text'>" + shop[i].description + "</p> "
-      var btn = "<a href='#' class='btn btn-primary'>Go somewhere</a>"
+      var btn = "<a href='#' class='btn btn-primary'>Add To Cart</a>"
       var card_suffix = " </div> </div></div>"  
 
       postHTML += card_prefix + card_img + card_body + heading + price + description + btn + card_suffix
