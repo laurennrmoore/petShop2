@@ -104,7 +104,12 @@ var shop = [
       description:"Fragrant, non-stick crystals with a color-based health indicator for your feline.Freshness guaranteed."
     },
     
-   
+    {
+      title: 'Rabbit Food',
+      image: '../img/rabbit food image.png',
+      price: '9.88',
+      description:"Fragrant, non-stick crystals with a color-based health indicator for your feline.Freshness guaranteed."
+    },
     
     ]
     
