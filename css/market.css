@@ -10,9 +10,62 @@
   display: grid;
 }
 
-<<<<<<< HEAD
-=======
-a{
-  margin-top: auto;
+
+
+
+
+
+.container {
+  position: relative;
+  width: 50%;
 }
->>>>>>> 44f3d2a85a938820978f996460f5911ae2af2933
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+
+}
+
+
+p{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+}
+
