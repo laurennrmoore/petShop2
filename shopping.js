@@ -45,28 +45,28 @@ var shop = [
     title: 'Therapy Dog Pouch',
     image: '../img/Therapy_dog_pouch.jpg',
     price: '9.99',
-    description:"This pouch easily holds your essentials.Get yours today!"
+    description:"This pouch easily holds your essentials. Waterproof and discrete, with a catch resistant zipper secures your items securely. Get yours today!"
   },
   
   {
     title: 'Hay Bundle',
     image: '../img/Hay_Bundle.png',
     price: '14.95',
-    description:"Make your pets feel right at home with our premium hay bundles for cages and treats!"
+    description:"Make your pets feel right at home with our premium hay bundles for cages and treats! Grown and sourced locally for optimum freshness."
   },
   
   {
     title: 'Horse Grooming Kit',
     image: '../img/horse_grooming_kit.png',
     price: '15.95',
-    description: "A well-groomed horse is a treasure.Care for their coat with our essential 9-pc grooming kit."
+    description: "A well-groomed horse is a treasure.Care for their mane and coat with our essential 9-pc grooming kit."
   },
   
   {
     title: 'Therapy Pet Sticker',
     image: '../img/I_need_space_button_or_sticker.png',
     price: '4.95',
-    description:"Kindly request a little space with our colorful sticker."
+    description:"Kindly request a little space with our colorful sticker, featuring a red stop sign. This gentle reminder keeps your pet on task."
   },
   
   {
@@ -120,7 +120,7 @@ var shop = [
   var suffix1 = "</div>"
 
   for(let i = 0; i < shop.length; i++){    
-      var card_prefix = "<div class='col-md-3 d-flex align-items-stretch'><div class='card' style='width: 18rem;'>"
+      var card_prefix = "<div class='col-md-3 d-flex align-items-stretch'><div class='card' style='width: 18rem border: 5px;'>"
       var  card_img = "<img class='card-img-top' src=" + shop[i].image + " alt='Card image cap'>"
       var card_body = "<div class='card-body'>"
       var heading = "<h5 class='card-title'>" + shop[i].title +"</h5>"

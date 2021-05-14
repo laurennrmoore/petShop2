@@ -10,8 +10,13 @@
   display: grid;
 }
 
+img.card-img-top:hover{
+  transform: scale(1.5);
+}
 
-
+div.card {
+  border: 5px solid tan;
+}
 
 
 
@@ -67,5 +72,30 @@ p{
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 500;
+  font-size: 20px;
 }
 
+
+/*code for hover zoom effect*/
+/* ul {
+        margin: 50px;
+        list-style: none;
+    }
+    ul li {
+        margin: 10px;
+        display: inline-block;
+    }
+    ul li a {
+        padding: 5px;
+        display: inline-block;      
+        border: 1px solid #f2f2f2;
+    }
+    ul li a img {
+        width: 125px;
+        height: 125px;
+        display: block;
+    }
+    ul li a:hover img {
+        transform: scale(1.5);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    } */
