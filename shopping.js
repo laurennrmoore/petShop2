@@ -73,7 +73,7 @@ var shop = [
     title: 'Ginea Pig Cage',
     image: '../img/multi_level_hamster_cage.png',
     price: '94.99',
-    description:"This multi-layer condo-hutch makes a great home for your furry friends!"
+    description:"This multi-layer condo-hutch makes a great home for your furry friends! Rust resistant, this sturdy cage will serve you well."
   },
   
   {
