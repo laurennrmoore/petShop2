@@ -1,5 +1,5 @@
 .card-img-top{
-    height: 250px;
+    height: 200px;
   }
   
 .card{
@@ -22,7 +22,7 @@ div.card {
 
 .container {
   position: relative;
-  width: 50%;
+  /* width: 50%; */
 }
 
 .image {
@@ -31,7 +31,7 @@ div.card {
   height: auto;
 }
 
-.overlay {
+/* .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -58,7 +58,7 @@ div.card {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-}
+} */
 
 h2{
   text-align: center;
@@ -74,6 +74,21 @@ p{
   font-weight: 500;
   font-size: 20px;
 }
+
+.btn{
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
+
+
+
+
+
+
+
 
 
 /*code for hover zoom effect*/

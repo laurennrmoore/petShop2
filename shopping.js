@@ -126,7 +126,7 @@ var shop = [
       var heading = "<h5 class='card-title'>" + shop[i].title +"</h5>"
       var price = "<p class='card-text'>" + shop[i].price + "</p> "
       var description = "<p class='card-text'>" + shop[i].description + "</p> "
-      var btn = "<a href='#' class='btn btn-primary'>Add To Cart</a>"
+      var btn = "<a href='#' class='btn '>Add To Cart</a>"
       var card_suffix = " </div> </div></div>"  
 
       postHTML += card_prefix + card_img + card_body + heading + price + description + btn + card_suffix
