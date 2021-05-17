@@ -23,16 +23,17 @@ margin-top: 7px;
 
 h1{
   text-align: center; 
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: lora;
 }
 
 
 
 p{
-font-size: 16px;
-text-align: center;
+font-size: 18px;
+text-align: left;
 margin-left: 10px;
 margin-right: 10px;
+font-family: lora;
 }
 
 

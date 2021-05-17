@@ -80,7 +80,7 @@ var shop = [
     title: 'Ginea Pig Food',
     image: '../img/ginea_pig_pellet_food.png',
     price: '4.99',
-    description:"Nourish your ginea's with the best food.Infused with greens and sweet carrots, this is sure to be a favorite!"
+    description:"Nourish your ginea's with the best food.Infused with greens and sweet carrots, this is sure to be a favorite! Stock up today!"
   },
   
   {
@@ -94,7 +94,7 @@ var shop = [
     title: 'Cat litter Box',
     image: '../img/cat_litter_box.webp',
     price: '14.95',
-    description:"Give your cat a spacious litter box with our sturdy, stylish design."
+    description:"Give your cat a spacious litter box with our sturdy, stylish design. Self cleaning options available."
   },
   
   {

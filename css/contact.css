@@ -1,5 +1,6 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: lora;
+    font-size: 10px;
   }
   
   * {
@@ -16,7 +17,9 @@ body {
     resize: vertical;
   }
 
-  
+  p{
+    font-size: 14px;
+  }
   
   input[type=submit] {
     background-color: #4CAF50;
@@ -24,6 +27,7 @@ body {
     padding: 12px 20px;
     border: none;
     cursor: pointer;
+    font-size: 13px;
   }
   
   input[type=submit]:hover {
