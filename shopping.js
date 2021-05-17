@@ -123,10 +123,10 @@ var shop = [
       var card_prefix = "<div class='col-md-3 d-flex align-items-stretch'><div class='card' style='width: 18rem border: 5px;'>"
       var  card_img = "<img class='card-img-top' src=" + shop[i].image + " alt='Card image cap'>"
       var card_body = "<div class='card-body'>"
-      var heading = "<h5 class='card-title'>" + shop[i].title +"</h5>"
+      var heading = "<h5 class='card-title text-center'>" + shop[i].title +"</h5>"
       var price = "<p class='card-text'>" + shop[i].price + "</p> "
       var description = "<p class='card-text'>" + shop[i].description + "</p> "
-      var btn = "<a href='#' class='btn '>Add To Cart</a>"
+      var btn = "<a href='#' class='btn' color='skyblue'>Add To Cart</a>"
       var card_suffix = " </div> </div></div>"  
 
       postHTML += card_prefix + card_img + card_body + heading + price + description + btn + card_suffix
