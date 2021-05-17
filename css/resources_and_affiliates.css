@@ -1,3 +1,12 @@
 body{
-   
+   background-color: burlywood;
 }
+
+.background{
+transform-style: preserve-3d;
+}
+
+.h2{
+    margin-bottom: -10px;
+}
+
