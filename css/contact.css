@@ -55,11 +55,21 @@ body {
     font-size: 13px;
   }
 
+  /* Hover effect over text boxes */
+  
+
+  #subject:hover
+  {
+      background: bisque;
+      font-size: 14px;
+  }
 
 
 
 
 
+
+/* End of hover*/
 
 
   input[type=submit]:hover {
