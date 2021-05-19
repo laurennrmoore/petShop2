@@ -4,13 +4,9 @@ ul{
 }
 
 
-
-h1{
-    font-family: lora;
-}
-
-
-
-h2{
-    font-family: lora;
+pre{
+display: block; 
+font-family: lora;   
+white-space: pre;
+margin: 1em;
 }
