@@ -16,8 +16,8 @@ margin-top: 7px;
 
 #navbar-brand{
  font-size: 3em;   
- font-family: Georgia, 'Times New Roman', Times, serif;
-
+ /* font-family: Georgia, 'Times New Roman', Times, serif; */
+ font-family: lora;
 }
 
 .navbar a{
