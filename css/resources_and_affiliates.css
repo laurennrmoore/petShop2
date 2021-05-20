@@ -1,12 +1,21 @@
 ul{
-    font-family: lora;
+    font-family: Lora;
     font-size: 13px;
+}
+
+
+
+u{
+    font-family: Lora;
 }
 
 
 pre{
 display: block; 
-font-family: lora;   
+font-family: lora;  
+font-size: 13px; 
 white-space: pre;
 margin: 1em;
+box-shadow: aqua;
 }
+
