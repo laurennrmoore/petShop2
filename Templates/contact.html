@@ -7,6 +7,10 @@
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500;1,600&display=swap" rel="stylesheet">
+
+
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -44,43 +48,45 @@
 
 
 <body>
-  <!-- <a href="../index.html">Home</a> -->
-
-  
 
   <div id="navbar">
 
   </div>
 
 <h2 style="text-align: center;">We Want To Hear From You!</h2>
-<p></p>
+
 
 <div class="container">
   <div style="text-align:center">
     <h2>Contact Us</h2>
-    <p font-size: > Tell us about Your Therapy Pet Needs</p>
+    <!-- <p>Tell us about Your Therapy Pet Needs</p> -->
   </div>
   <div class="row">
     <div class="column">
       <img src="../img/therapy poocher in the lobby.png" style="width:100%">
     </div>
     <div class="column">
-      <form action="/action_page.php">
+      <form action="#">
         <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name.." class="input-text">
+        <input type="text" id="fname" name="firstname" placeholder="Your first name.." class="input-text">
+        
         <label for="lname">Last Name</label>
         <input type="text" id="lname" name="lastname" placeholder="Your last name.." class="input-text">
-        <label for="email">Email Address</label> <br>
+
+        <label for="phone number">Phone Number</label> 
+        <input type="text" id="phone number" placeholder="(123) 456-7890" class="input-text">
+        <br> <br>
+        <label for="email address">Email Address</label> 
+        <input type="text" id="email" placeholder="emailaddress@example.com" class="input-text">
         
-        <input type="email" id="email" placeholder="emailaddress@example.com" class="input-text">
-        <br>
         <label for="country">Country</label>
         <select id="country" name="country">
          <option value="usa">USA</option>
          <option value="canada">Canada</option>
         </select>
+
         <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <textarea id="subject" name="subject" placeholder="How would applying for a service animal change your life?" style="height:170px"></textarea>
         <input type="submit" value="Submit">
       </form>
     </div>
@@ -89,15 +95,17 @@
  </div>
 
 
- <div id="footer"></div>
+  <div id="footer"></div>
 
- 
+
+
+
 <script>
 
   $(document).ready(function() {
     $("#navbar").load("Navbar.html")
     $('#footer').load("footer.html")
-  })
+   });
 
 </script>
 

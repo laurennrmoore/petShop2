@@ -1,5 +1,5 @@
 .card-img-top{
-    height: 250px;
+    height: 200px;
   }
   
 .card{
@@ -10,9 +10,55 @@
   display: grid;
 }
 
-<<<<<<< HEAD
-=======
-a{
-  margin-top: auto;
+img.card-img-top:hover{
+  transform: scale(1.3);
 }
->>>>>>> 44f3d2a85a938820978f996460f5911ae2af2933
+
+div.card {
+  border: 5px solid tan;
+}
+
+
+.container {
+  position: relative;
+ 
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+
+h2{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+
+}
+
+
+p{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.btn{
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
+
+
+
+
+
+
+
+

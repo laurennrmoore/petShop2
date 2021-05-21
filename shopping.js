@@ -45,42 +45,42 @@ var shop = [
     title: 'Therapy Dog Pouch',
     image: '../img/Therapy_dog_pouch.jpg',
     price: '9.99',
-    description:"This pouch easily holds your essentials.Get yours today!"
+    description:"This pouch easily holds your essentials. Waterproof and discrete, with a catch resistant zipper secures your items securely. Get yours today!"
   },
   
   {
     title: 'Hay Bundle',
     image: '../img/Hay_Bundle.png',
     price: '14.95',
-    description:"Make your pets feel right at home with our premium hay bundles for cages and treats!"
+    description:"Make your pets feel right at home with our premium hay bundles for cages and treats! Grown and sourced locally for optimum freshness."
   },
   
   {
     title: 'Horse Grooming Kit',
     image: '../img/horse_grooming_kit.png',
     price: '15.95',
-    description: "A well-groomed horse is a treasure.Care for their coat with our essential 9-pc grooming kit."
+    description: "A well-groomed horse is a treasure.Care for their mane and coat with our essential 9-pc grooming kit."
   },
   
   {
     title: 'Therapy Pet Sticker',
     image: '../img/I_need_space_button_or_sticker.png',
     price: '4.95',
-    description:"Kindly request a little space with our colorful sticker."
+    description:"Kindly request a little space with our colorful sticker, featuring a red stop sign. This gentle reminder keeps your pet on task."
   },
   
   {
     title: 'Ginea Pig Cage',
     image: '../img/multi_level_hamster_cage.png',
     price: '94.99',
-    description:"This multi-layer condo-hutch makes a great home for your furry friends!"
+    description:"This multi-layer condo-hutch makes a great home for your furry friends! Rust resistant, this sturdy cage will serve you well."
   },
   
   {
     title: 'Ginea Pig Food',
     image: '../img/ginea_pig_pellet_food.png',
     price: '4.99',
-    description:"Nourish your ginea's with the best food.Infused with greens and sweet carrots, this is sure to be a favorite!"
+    description:"Nourish your ginea's with the best food.Infused with greens and sweet carrots, this is sure to be a favorite! Stock up today!"
   },
   
   {
@@ -94,7 +94,7 @@ var shop = [
     title: 'Cat litter Box',
     image: '../img/cat_litter_box.webp',
     price: '14.95',
-    description:"Give your cat a spacious litter box with our sturdy, stylish design."
+    description:"Give your cat a spacious litter box with our sturdy, stylish design. Self cleaning options available."
   },
   
   {
@@ -120,13 +120,13 @@ var shop = [
   var suffix1 = "</div>"
 
   for(let i = 0; i < shop.length; i++){    
-      var card_prefix = "<div class='col-md-3 d-flex align-items-stretch'><div class='card' style='width: 18rem;'>"
+      var card_prefix = "<div class='col-md-3 d-flex align-items-stretch'><div class='card' style='width: 18rem border: 5px;'>"
       var  card_img = "<img class='card-img-top' src=" + shop[i].image + " alt='Card image cap'>"
       var card_body = "<div class='card-body'>"
-      var heading = "<h5 class='card-title'>" + shop[i].title +"</h5>"
+      var heading = "<h5 class='card-title text-center'>" + shop[i].title +"</h5>"
       var price = "<p class='card-text'>" + shop[i].price + "</p> "
       var description = "<p class='card-text'>" + shop[i].description + "</p> "
-      var btn = "<a href='#' class='btn btn-primary'>Add To Cart</a>"
+      var btn = "<a href='#' class='btn' color='skyblue'>Add To Cart</a>"
       var card_suffix = " </div> </div></div>"  
 
       postHTML += card_prefix + card_img + card_body + heading + price + description + btn + card_suffix
